@@ -1,0 +1,123 @@
+@font-face {
+  font-family: Harmony;
+  src: url(Harmony.ttf);
+  font-family: Nunito;
+  src: url(Nunito/Nunito-SemiBold.ttf);
+} 
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Harmony;
+    font-weight: 100;
+    font-size: 8em;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+button {
+    justify-content: space-between;
+    margin: 1em;
+    margin-bottom: 3em;
+    margin-top: -1em;
+    padding: 0.8em 1em;
+    border-radius: 8px;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    font-family: Nunito;
+    font-size: 0.8em;
+    transition: all 0.5s linear;
+}
+
+section > button:nth-of-type(1) {
+    background-color: #e5e5e5;
+}
+
+section > button:nth-of-type(2) {
+    background-color: #ff8b94;
+}
+
+section > button:nth-of-type(3) {
+    background-color: #ffb69c;
+}
+
+section > button:nth-of-type(4) {
+    background-color: #ffe783;
+}
+
+section > button:nth-of-type(5) {
+    background-color: #befcbf;
+}
+
+section > button:nth-of-type(6) {
+    background-color: #b9f0f9;
+}
+
+section > button:nth-of-type(7) {
+    background-color: #e1c3fc;
+}
+
+section > button:nth-of-type(8) {
+    background-color: #ffc7e3;
+}
+
+
+
+section > button:nth-of-type(1):hover {
+    border-color: #b2b2b2;
+    color: #777777;
+}
+section > button:nth-of-type(2):hover {
+    border-color: #ff7384;
+    color: #ff436c;
+}
+
+section > button:nth-of-type(3):hover {
+    border-color: #ffa285;
+    color: #ff7555;
+}
+
+section > button:nth-of-type(4):hover {
+    border-color: #ffdc48;
+    color: #ffb600;
+}
+
+section > button:nth-of-type(5):hover {
+    border-color: #a5f9a5;
+    color: #4fdb4f;
+}
+
+section > button:nth-of-type(6):hover {
+    border-color: #a1eff7;
+    color: #4dd7e2;
+}
+
+section > button:nth-of-type(7):hover {
+    border-color: #d0aaf9;
+    color: #b079f7;
+}
+
+section > button:nth-of-type(8):hover {
+    border-color: #ffb0db;
+    color: #ff80cc;
+}
+
+section:nth-of-type(2) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+img {
+    max-width: 100%;
+    margin: 0.5em;
+    display: none;
+}
+
+img.show{
+    display: flex;
+}
+
+   
