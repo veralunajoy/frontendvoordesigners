@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Tall Film;
+    src: url(fonts/Tall Film.ttf);
+}
+
+h1 {
+    font-size: 5em;
+    font-family: Tall Film;
+}
+
+img {
+    width: 60em;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    width: 60em;
+    margin: auto;
+}
+
+button {
+    height: 10em;
+    width: 2.5em;
+}
