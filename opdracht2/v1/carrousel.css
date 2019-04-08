@@ -1,26 +1,49 @@
 @font-face {
-    font-family: Tall Film;
+    font-family: Tall Films;
     src: url(fonts/Tall Film.ttf);
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 4em;
     font-family: Tall Film;
+    text-align: center;
 }
 
 img {
-    width: 60em;
+    width: 600px;
+    height: 770px;
+    //margin-left: 980px;
+    //margin-right: 980px;
 }
 
 div {
     display: flex;
     flex-direction: row;
+    width: 600px;
+    margin: 0 auto;
+}
+
+section {
     overflow-x: hidden;
-    width: 60em;
-    margin: auto;
 }
 
 button {
     height: 10em;
     width: 2.5em;
+    margin: auto;
+}
+
+.moveleft {
+    transform: translateX(600px);
+    transition: 1s ease
+}
+
+.moveleft2 {
+    transform: translateX(1200px);
+    transition: 1s ease
+}
+
+.moveright {
+    transform: translateX(-600px);
+    transition: 1s ease
 }
